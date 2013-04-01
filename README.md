@@ -9,10 +9,15 @@ Install Qt : sudo apt-get install libqt4-dev
 Install qexserialport :
 
 cd /patch/to/RC/
-git clone https://code.google.com/p/qexserialport
+
+git clone https://code.google.com/p/qextserialport
+
 cd qexserialport
+
 qmake
+
 make
+
 sudo make install
 
 --------------------------
@@ -20,4 +25,5 @@ sudo make install
 Install RC:
 
 cd ..
+
 make
