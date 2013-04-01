@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>shortcut</class>
+ <widget class="QDialog" name="shortcut">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>367</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>367</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>367</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Raccourcis Clavier</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Images/configurer-icone-7451-96.png</normaloff>Images/configurer-icone-7451-96.png</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>361</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="midLineWidth">
+    <number>0</number>
+   </property>
+   <property name="rowCount">
+    <number>8</number>
+   </property>
+   <property name="columnCount">
+    <number>2</number>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>165</number>
+   </attribute>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>Description</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Raccourcis</string>
+    </property>
+    <property name="font">
+     <font>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="foreground">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>Bouger l'auriculaire</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>Bouger l'annulaire</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>Bouger le Majeur</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>Bouger l'index</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>Bouger le Pouce</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>Bouger Tout les doigt</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="5" column="1">
+    <property name="text">
+     <string>Ctrl</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="6" column="0">
+    <property name="text">
+     <string>Mettre tout les doigt à 0</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="6" column="1">
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="7" column="0">
+    <property name="text">
+     <string>Quiter</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsEnabled</set>
+    </property>
+   </item>
+   <item row="7" column="1">
+    <property name="text">
+     <string>Ctrl+Q</string>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsEnabled</set>
+    </property>
+   </item>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>290</y>
+     <width>131</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="ok">
+      <property name="text">
+       <string>Ok</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="annuler">
+      <property name="text">
+       <string>Annuler</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
